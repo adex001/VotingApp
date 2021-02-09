@@ -1,5 +1,5 @@
 {
-  "name": "server-template",
+  "name": "votingapp",
   "version": "1.0.0",
   "description": "A simple server template",
   "main": "server/app.js",
@@ -15,17 +15,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/adex001/server-template.git"
+    "url": "git+https://github.com/adex001/VotingApp.git"
   },
   "keywords": [
-    "server"
+    "vote", "election"
   ],
   "author": "Olatunbosun Adeoye",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/adex001/server-template/issues"
+    "url": "https://github.com/adex001/VotingApp/issues"
   },
-  "homepage": "https://github.com/adex001/server-template#readme",
+  "homepage": "https://github.com/adex001/VotingApp#readme",
   "dependencies": {
     "@babel/cli": "^7.7.7",
     "@babel/core": "^7.7.7",
