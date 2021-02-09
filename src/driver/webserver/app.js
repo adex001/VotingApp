@@ -4,7 +4,7 @@ import cors from 'cors';
 import helmet from 'helmet';
 
 import '@config';
-import { userRoute } from '../../services';
+// import { userRoute } from '../../services';
 import '../../db/orm';
 
 const PORT = process.env.PORT || 2000;
@@ -27,7 +27,7 @@ app.use(bodyParser.urlencoded({
 app.use(helmet());
 
 // Routes from Services
-app.use(userRoute);
+// app.use(userRoute);
 
 // Routing
 app.get('/', (req, res) => res.status(200).json({

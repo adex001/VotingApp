@@ -1,0 +1,28 @@
+{
+  "presets": [
+    [
+    "@babel/preset-env",
+    {
+        "targets": {
+            "node": "current"
+        }
+    }]
+    ],
+  "plugins": [
+    "@babel/plugin-transform-runtime",
+    "@babel/plugin-proposal-object-rest-spread",
+    [
+      "module-resolver",
+      {
+        "root": [
+          "./"
+        ],
+        "alias": {
+          "@app": "./src/driver/webserver/app",
+          "@config": "./src/config",
+          "@services": "./src/services"
+        }
+      }
+    ]
+  ]
+}
